@@ -1,9 +1,30 @@
-<a href="/pagamento">Comprar</a>
-
-{{#each painels}}
-    <div>
-        {{this.seller}}
-        <br/>
-        R$ {{this.price}}
-    </div>
-{{/each}}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Vendedor: </th>
+      <th scope="col">Preço/mês: </th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Lucas Passeado</td>
+      <td>R$160,00</td>
+      <td><a href="/pagamento">Comprar</a></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Roberto Adriano</td>
+      <td>R$180,00</td>
+      <td><a href="/pagamento">Comprar</a></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Sidney</td>
+      <td>R$195,00</td>
+      <td><a href="/pagamento">Comprar</a></td>
+    </tr>
+  </tbody>
+</table>

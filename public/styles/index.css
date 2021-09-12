@@ -18,6 +18,12 @@ main {
   justify-content: space-between;
 }
 
+.centralize {
+  padding: 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .oi17 {
   display: flex;
@@ -37,6 +43,7 @@ main {
   font-size: larger;
   background-color: #7879F1;
   color: white;
+  max-width: 140px;
 }
 
 .container {
@@ -146,6 +153,8 @@ main {
 }
 
 .initial-info {
+  font: Roboto;
+  font-size: large;
   display: flex;
   flex-direction: row;
   align-items: center;
