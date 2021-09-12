@@ -1,0 +1,83 @@
+
+    <form method="POST" action="/cadastro">
+
+        <div class="container">
+            <div class="oi16">
+                <h1>Cadastre-se aqui</h1>
+
+                <div>
+                    <label class="field">
+                        <div>E-mail:</div>
+                        <input required name="email" type="email">
+                    </label>
+                </div>
+
+                <div>
+                    <label class="field">
+                    <div>Senha:</div>
+                    <input required name="password" type="password">
+                    </label>
+                </div>
+
+                <div>
+                    <label class="field">
+                    Tipo de usuário:
+                    <select name="userType">
+                        <option>Vendedor</option>
+                        <option>Comprador</option>
+                    </select>
+                </label>
+                </div>
+
+                <div>
+                    <label class="field">
+                        Nome/nome jurídico:
+                        <input required name="nome" type="text">
+                    </label>
+                </div>
+
+                <div>
+                    <label class="field">
+                        CPF/CNPJ:
+                        <input required name="cpf" type="text">
+                    </label>
+                </div>
+
+                <div>
+                    <label class="field">
+                        CEP:
+                        <input required name="cep" type="text">
+                    </label>
+                </div>
+
+                <div>
+                    <label class="field">
+                        Endereço (Rua e número):
+                        <input required name="end" type="text">
+                    </label>
+                </div>
+
+                <div>
+                    <label class="field">
+                        telefone de contato:
+                        <input required name="tel" type="tel">
+                    </label>
+                </div>
+
+                <div>
+                    <label class="field">
+                            Unidade consumidora:
+                        <input required name="uc" type="text">
+                    </label>
+                </div>
+                <button class="button">Confirmar</button>
+            </div>
+            <div class="cadastro-text">
+                <div><p>Nosso site também oferece serviços para empresas! Para isso, sua empresa necessita distribuir energia solar aos clientes de forma consciente e sustentável. Para empresas é necessário indicar o CNPJ e nome jurídico.</p>
+                </div>
+                <img src="high-five.svg" alt="bate aqui">
+            </div>
+        </div>
+
+    
+    </form>
