@@ -129,11 +129,13 @@ const main = async () => {
         return response.redirect("/login")
     })
 
-    app.listen(5050, () => {
-        console.log('server running at http://localhost:5050')
-    })
+    // Use esse para rodar localmente
+    // app.listen(5050, () => {
+    //     console.log('server running at http://localhost:5050')
+    // })
 
-    // app.listen(process.env.PORT || 5000)
+    // use esse para rodar o servidor
+    app.listen(process.env.PORT || 5000)
 }
 
 main()
