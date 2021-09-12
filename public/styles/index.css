@@ -36,6 +36,10 @@ main {
   font-size: large;
 }
 
+.input {
+  margin-bottom: 2px;
+}
+
 .button {
   padding: 12px 28px;
   border: black;
